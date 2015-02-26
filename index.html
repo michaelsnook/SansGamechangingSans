@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sans Gamechanging Sans — Changing the game on ligature synergies</title>
+    <meta name="description" content="A font that'll get rid off all the bullshit, forked from github.com/RoelN/SansBullshitSans.">
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <style>
+      @font-face{font-family: SansBullshitSans;src:url('/SansGamechangingSans.ttf');font-weight:normal}
+      html{box-sizing:border-box}
+      *,*:before,*:after{margin:0;padding:0;box-sizing:inherit}
+      p{margin:1em 0;}p.parenthetical{margin:0;font-size:0.6em;color:#888;}
+      p.parenthetical a{color:#666;}
+      body{font-family:Open Sans,Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;font-weight:400;color:#000;background-color:#fff}
+      h1,h2,h3{font-weight:normal}h1{font-size:3em}h2{font-size:2em}
+      .logo{position:absolute;position:fixed;top:1em;right:1em;max-width:4em;z-index:10}
+      article{width:100%;text-align:center}
+      .try-it-yourself{padding:3em 4em;font-size:1.3em}.try-it-yourself textarea{font-family:SansBullshitSans;font-variant-ligatures:common-ligatures;-webkit-font-feature-settings:"liga" 1, "dlig" 1;-moz-font-feature-settings:"liga" 1, "dlig" 1;-ms-font-feature-settings:"liga" 1, "dlig" 1;font-feature-settings:"liga" 1, "dlig" 1;font-size:1.5em;width:90%;max-width:30em;height:8em;margin:1em auto 0 auto;border:1px solid #bbb;text-align:left;padding:0.25em;box-shadow:2px 2px 4px rgba(0,0,0,0.15)}
+      .try-it-yourself .bullshit-suggestions{opacity:0.5}[contenteditable]:empty:not(:focus):before{content:attr(data-placeholder);color:#ddd}
+      article.footer{padding: 0 1em 1em;background-color:#ccc;border-top:1em solid #ddd;}
+    </style>
+
+</head>
+<body>
+
+
+  <article class="try-it-yourself">
+    <h1>SansGamechangingSans</h1>
+    <p>
+      An absolutely game-changing fork of the glorious
+      <a href="http://www.sansbullshitsans.com/">SansBullshitSans</a>.
+    </p>
+    <p class="bullshit-suggestions">--</p>
+    <p>
+      Paste your most gamechanging marketing blurb here, or type something yourself.
+      <br>
+      <span class="bullshit-suggestions no-bullshit">
+        E.g. “the agile unicorn funded a gamechangingly immersive beta below the fold.”
+      </span>
+    </p>
+    <textarea placeholder="Type some bullshit..."></textarea>
+    <p class="parenthetical">
+      This only works if your
+      <a href="http://stateofwebtype.com/#Standard Ligatures (liga)" target="_blank">
+      browser supports ligatures.</a>
+    </p>
+  </article>
+
+  <article class="footer">
+    <p><small>
+      By Michael Snook
+      <a href="https://github.com/michaelsnook/SansGamechangingSans">
+      on GitHub</a>. Seriously though, the font and even a lot of the code on this
+      display page were cribbed from the original site by
+      <a href="https://github.com/RoelN">RoelN</a>.
+    </small></p>
+  </article>
+</body>
+
+</html>
